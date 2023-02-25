@@ -329,7 +329,7 @@
             <div class="row">
                 <div class="col-12" data-aos="fade-up" data-aos-delay="100">
                     <div class="setion-title text-center">
-                        <h1>Education & Experiance</h1>
+                        <h1>Education & Experience</h1>
                         <p>Building expertise through education, and refining it through experience - let me share with you my journey of continuous growth and learning.</p>
                         <div class="line"></div>
                     </div>
@@ -554,7 +554,8 @@
     })
      </script>   
      <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbz6ItawnU0OdouKJnBqJJnPGepU-U09mH6maijOg17uPz2T8XtZH8QVbwPprScYrMSiVg/exec'
+        // https://docs.google.com/spreadsheets/d/1jA4iP4LiP7gQD1tnBtjgaHp_p5XMj1joRbXgPil_fdQ/edit?usp=sharing 
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz0-dtXt4oQKBW1zhFFEgFTm63H1nk8_Y4Qn6zQEUCoV5Mpps56MEaC8_PxBioCCWn-lw/exec'
         const form = document.forms['submit-to-google-sheet']
         const success = document.getElementById('success');
         form.addEventListener('submit', e => {
@@ -569,9 +570,9 @@
             })
             .catch(error => {
                 failure.innerHTML = "failed";
-                setTimeout(function(){
+                setTimeout(function(){      
                     success.innerHTML = "";
-                },5000)                
+                },5000)             
             })
         })
       </script>
