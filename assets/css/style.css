@@ -3,7 +3,7 @@
 
 /* Variables */
 :root {
-    --c-brand: #bef0cb;
+    --c-brand: #64ed89;
     --c-brand-rgb: 248, 54, 145;
     --c-dark: #303050;
     --c-body: #636383;
@@ -57,6 +57,7 @@ img {
 
 .text-brand {
     color: var(--c-brand);
+    
 }
 
 .setion-title {
@@ -378,7 +379,7 @@ footer ul li {
 }
 /* --------------------extra------------------ */
 .multiText{
-    color: #bef0cb;
+    color: var(--c-brand);
     text-transform: capitalize;
 }
 #skills{
